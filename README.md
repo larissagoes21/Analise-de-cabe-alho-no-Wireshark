@@ -64,6 +64,7 @@ Indica a posição de um fragmento dentro do pacote original. Como este pacote n
 **Valor:** `128`
 
 O TTL representa o limite de saltos que o pacote pode realizar. A cada roteador atravessado, o valor é reduzido em 1. Quando chega a `0`, o pacote é descartado.
+Nesse teste o pacote só chegou a chegar a 60.
 
 ### Protocol
 **Valor:** `1 (ICMP)`
